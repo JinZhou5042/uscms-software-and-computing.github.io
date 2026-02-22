@@ -12,7 +12,7 @@ dates:
 photo: /assets/images/team/Jin_Zhou.png
 institution: University of Notre Dame
 e-mail: jzhou24@nd.edu
-project_title: Improving Reliability and Scalability of CMS Workflows with TaskVine and Node-Local Storage
+project_title: Scalable Data Analysis Applications for High Energy Physics
 project_goal: >
   <br>
   CMS analysis workflows that run on opportunistic clusters (e.g., HTCondor) often use node-local storage for intermediate data. At scale, worker failures and disk pressure make these runs unreliable. This project aimed to make such workflows manageable in practice—not to remove the trade-offs, but to control storage growth and recovery so that large campaigns finish predictably.
