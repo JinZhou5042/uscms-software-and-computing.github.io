@@ -14,12 +14,7 @@ institution: University of Notre Dame
 e-mail: jzhou24@nd.edu
 project_title: Scalable Data Analysis Applications for High Energy Physics
 project_goal: >
-  <br>
-  CMS analysis workflows that run on opportunistic clusters (e.g., HTCondor) often use node-local storage for intermediate data. At scale, worker failures and disk pressure make these runs unreliable. This project aimed to make such workflows manageable in practice—not to remove the trade-offs, but to control storage growth and recovery so that large campaigns finish predictably.
-  <br>
-  <br>
-  We worked in the Coffea/Dask-on-TaskVine stack and developed SciWIND: mechanisms for storage minimization, efficient recovery, and resilience tuning. The goal was to reduce failed runs and turnaround time for HL-LHC-era analyses. Details and evaluation are in the quarterly updates below.
-  <br>
+  CMS analysis workflows that run on opportunistic clusters (e.g., HTCondor) often use node-local storage for intermediate data. At scale, worker failures and disk pressure make these runs unreliable. This project aimed to make such workflows manageable in practice—not to remove the trade-offs, but to control storage growth and recovery so that large campaigns finish predictably. We worked in the Coffea/Dask-on-TaskVine stack and developed SciWIND: mechanisms for storage minimization, efficient recovery, and resilience tuning. The goal was to reduce failed runs and turnaround time for HL-LHC-era analyses. Details and evaluation are in the quarterly updates below.
 
 mentors:
   - Douglas Thain (Cooperative Computing Lab, University of Notre Dame)
